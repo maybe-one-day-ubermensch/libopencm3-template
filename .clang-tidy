@@ -1,0 +1,9 @@
+Checks: '-*,
+        clang-analyzer-*,
+        cppcoreguidelines-*,
+        -cppcoreguidelines-pro-type-vararg,
+        modernize-*,
+        performance-*,
+        portability-*,
+        readability-*,
+        -readability-else-after-return,'

@@ -1,0 +1,46 @@
+AlignConsecutiveMacros: true
+AlignTrailingComments: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: AllDefinitions
+AlwaysBreakBeforeMultilineStrings: true
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: true
+BinPackParameters: true
+BreakBeforeBinaryOperators: NonAssignment
+ColumnLimit: 80
+EmptyLineBeforeAccessModifier: LogicalBlock
+IndentCaseLabels: true
+IndentGotoLabels: false
+IndentWidth: 4
+IndentWrappedFunctionNames: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+PointerAlignment: Right
+SortIncludes: true
+SpaceAfterCStyleCast: false
+SpaceAfterControlStatementKeyword: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: false
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: false
+SpacesInCStyleCastParentheses: false
+SpacesInConditionalStatement: false
+UseTab: Never
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterCaseLabel: false
+    AfterControlStatement: MultiLine
+    AfterEnum: false
+    AfterExternBlock: false
+    AfterFunction: true
+    AfterStruct: false
+    AfterUnion: false
+    BeforeElse: true
+    IndentBraces: false
+    SplitEmptyFunction: false
