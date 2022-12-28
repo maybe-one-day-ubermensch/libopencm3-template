@@ -143,6 +143,8 @@ $(BUILD_DIR)/%.o: %.S
 $(BUILD_DIR)/$(PROJECT).elf: $(OBJS) $(LDSCRIPT) $(LIBDEPS)
 	@printf "  LD\t$@\n"
 	$(Q)$(LD) $(TGT_LDFLAGS) $(LDFLAGS) $(OBJS) $(LDLIBS) -o $@
+	@printf "  MV\t$(LDSCRIPT) -> $(BUILD_DIR)/\n"
+	$(Q)mv $(LDSCRIPT) $(BUILD_DIR)/$(LDSCRIPT)
 
 $(BUILD_DIR)/%.bin: $(BUILD_DIR)/%.elf
 	@printf "  OBJCOPY\t$@\n"
