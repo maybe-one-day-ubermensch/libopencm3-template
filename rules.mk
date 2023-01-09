@@ -47,7 +47,7 @@ endif
 PREFIX	?= arm-none-eabi-
 CC	= $(PREFIX)gcc
 CXX	= $(PREFIX)g++
-LD	= $(PREFIX)gcc
+LD	= $(PREFIX)g++
 OBJCOPY	= $(PREFIX)objcopy
 OBJDUMP	= $(PREFIX)objdump
 OOCD	?= openocd
